@@ -95,6 +95,12 @@ cargo test --workspace --locked
 
 The inherited implementation has no automated behavioral tests yet.
 
+## Planned lexer refactor
+
+The [lexer refactor target](lexer-refactor.md) records the agreed scope, state
+transition guarantees, regression coverage, and exclusions. Implementation is
+still pending.
+
 ## Playground limitations
 
 AST display is debug-only. The class/function example describes planned syntax.
